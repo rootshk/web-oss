@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "SourceHanSansCN-Normal";
+    src: url("SourceHanSansCN-Normal.eot"); /* IE9 */
+    src: url("SourceHanSansCN-Normal/SourceHanSansCN-Normal.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    
+    url("SourceHanSansCN-Normal.woff") format("woff"), /* chrome、firefox */
+    url("SourceHanSansCN-Normal.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    
+    url("SourceHanSansCN-Normal.svg#SourceHanSansCN-Normal") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+
