@@ -158,7 +158,7 @@
 			  <p class="hide-on-small-only">提供校园计算机室可能需要的资源,资源同样来自于阿里云OSS,采用BGP多节点网络.提供极速下载体验</p>
 			</div>
 		</div>
-	</div><!-- 浮于 背景上方的文本框 白色背景-->
+	</div><!-- 浮于 背景上方的文本框-->
   	<div class="parallax-container">
   		<div class="parallax">
 			<img src="img/mian2.jpg">
