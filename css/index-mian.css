@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+	body {
+    	font-family: SourceHanSansCN-Normal, Helvetica, Verdana, sans-serif;
+	}/* 设置字体为思源黑体*/
+    .sq {
+	margin-top: 35px;
+	}/* 搜索栏据顶部距离*/
+	.xq{
+	margin-right: 25px;
+	}/* 平板以下回到顶部按钮据右边距离*/
+	.tabtop {
+	margin-top: 205px;
+	}/* 已弃用*/
+	.mianphoto{
+		height: 900px ;
+	}/* 第一面板背景图片高度*/
+    .photos {
+	margin-top: 13px;
+	}/* 快速超链接图片据上部高度*/
+	.upshang{
+	margin-top: -15px;		
+	}/* 导航条ul li调整*/

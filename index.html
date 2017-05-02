@@ -1,37 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!--Import Google Icon Font-->
-    <link href="https://font.c2cmalls.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="fonts/SourceHanSansCN-Normal/SourceHanSansCN-Normal.css"  media="screen,projection"/>
-    <style type="text/css">
-	body {
-    	font-family: SourceHanSansCN-Normal, Helvetica, Verdana, sans-serif;
-	}/* 设置字体为思源黑体*/
-    .sq {
-	margin-top: 35px;
-	}/* 搜索栏据顶部距离*/
-	.xq{
-	margin-right: 25px;
-	}/* 平板以下回到顶部按钮据右边距离*/
-	.tabtop {
-	margin-top: 205px;
-	}/* 已弃用*/
-	.mianphoto{
-		height: 900px ;
-	}/* 第一面板背景图片高度*/
-    .photos {
-	margin-top: 13px;
-	}/* 快速超链接图片据上部高度*/
-	.upshang{
-	margin-top: -15px;		
-	}/* 导航条ul li调整*/
-    </style>
-    <!--Let browser know website is optimized for mobile-->
-    <title>OSS - RootHK</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8" />
+	<!--Import Google Icon Font-->
+	<link href="https://font.c2cmalls.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	<link type="text/css" rel="stylesheet" href="css/index-mian.css"  media="screen,projection"/><!-- 外部自定义CSS-->
+	<link type="text/css" rel="stylesheet" href="fonts/SourceHanSansCN-Normal/SourceHanSansCN-Normal.css"  media="screen,projection"/>
+	<!--Let browser know website is optimized for mobile-->
+	<title>OSS - RootHK</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8" />
 </head>
 
 <body>
@@ -420,55 +398,10 @@
             </div>
           </div>
         </footer><!-- 页脚-->
-      
     <!-- 下面是JS脚本引入,放置在BODY后面有助于加快网页加载速度-->
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript">
-		$( document ).ready(function(){
-			$(".button-collapse").sideNav();
-			$('.parallax').parallax();
-			$('.paralla').paralla();
-			$('.collapsible').collapsible();
-			$('ul.tabs').tabs();
-			$('.dropdown-button').dropdown();
-			$('.scrollspy').scrollSpy();
-			$('.modal').modal();
-			
-		})
-		$(window).scroll(function(){
-			if($(window).scrollTop()>=900){
-				$(".b0c").addClass(	//页面在顶部900px时增加类(此处为改变颜色和选中状态)
-					"#4db6ac teal lighten-2"//颜色改为绿色
-				)
-				$(".activethis").addClass(
-					"active"//标签改为选中状态
-				)
-			}else{
-				$(".b0c").removeClass(	//否则删除类
-					"#4db6ac teal lighten-2"
-				)
-				$(".activethis").removeClass(
-					"active"
-				)
-			}
-		})
-		$('#dow1').click(function(){ 
-			$('html,body').animate({
-				scrollTop:$('#b1c').offset().top
-			}, 2000); //点击后线性移动到指定位置
-		});
-		$('#up1').click(function(){ 
-			$('html,body').animate({
-				scrollTop:$('#up2').offset().top
-			}, 2000); 
-		});
-		$('#up0').click(function(){ 
-			$('html,body').animate({
-				scrollTop:$('#up2').offset().top
-			}, 2000); 
-		});
-	</script><!-- JS初始化 -->
+    <script type="text/javascript" src="js/index-mian.js"></script><!-- JS初始化 -->
 </body>
 </html>
