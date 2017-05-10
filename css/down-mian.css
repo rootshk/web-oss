@@ -1,12 +1,12 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* CSS Document */
 
 	body {
+    	font-family: SourceHanSansCN-Normal, Helvetica, Verdana, sans-serif;
 	}
 	.zuo {
 		height: 80%;
 	}
 	    .sq {
 	margin-top: 25px;
-	}/* 搜索栏据顶部距离*/
-	}/* 搜索栏据顶部距离*/
+	}
