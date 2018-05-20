@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XX详细信息管理</title>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.loli.net/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body class="#eeeeee grey lighten-3">
+<!--header-->
+<nav>
+    <div class="nav-wrapper #e57373 red lighten-2">
+        <a href="#!" onclick="" class="brand-logo"><h5>XX详细信息管理</h5></a>
+        <ul>
+            <!--返回-->
+            <li><a href="mobile.html"><i class="material-icons">arrow_back</i></a></li>
+        </ul>
+    </div>
+</nav>
+<!--main-->
+<p/>
+<nav class="container">
+    <div class="nav-wrapper white">
+        <form>
+            <div class="input-field">
+                <input id="search" type="search" required>
+                <label class="label-icon " for="search"><i class="material-icons">search</i></label>
+                <i class="material-icons">close</i>
+            </div>
+        </form>
+    </div>
+</nav>
+<p/>
+<!--message-->
+<div class="row container">
+    <div class="col s12 m6">
+        <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+                <span class="card-title">系统通知</span>
+                <p>我是一个很简单的卡片。我很擅长于包含少量的信息。我很方便，因为我只需要一个小标记就可以有效地使用。</p>
+            </div>
+            <div class="card-action right-align">
+                <!--<a class="white-text" href="#">查看</a>-->
+                <a class="white-text modal-trigger" href="#modal1">查看</a>
+                <a class="white-text modal-trigger" href="#modal1">删除</a>
+            </div>
+        </div>
+    </div>
+    <div class="col s12 m6">
+        <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+                <span class="card-title">卡片标题</span>
+                <p>我是一个很简单的卡片。我很擅长于包含少量的信息。我很方便，因为我只需要一个小标记就可以有效地使用。</p>
+                <p>我是一个很简单的卡片。我很擅长于包含少量的信息。我很方便，因为我只需要一个小标记就可以有效地使用。</p>
+                <p>我是一个很简单的卡片。我很擅长于包含少量的信息。我很方便，因为我只需要一个小标记就可以有效地使用。</p>
+                <p>我是一个很简单的卡片。我很擅长于包含少量的信息。我很方便，因为我只需要一个小标记就可以有效地使用。</p>
+            </div>
+            <div class="card-action">
+                <a href="#">这是一个链接</a>
+                <a href="#">这是一个链接</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--弹出框-->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <h4>标题</h4>
+        <hr>
+        <p>创建日期: 2018-05-20</p>
+        <p>来自: 管理员</p>
+        <p>客户吴亦凡已发货,请留意.订单号20180520-0219,商品[陈年老坛酸菜牛肉面],下单时间[2018-05-20 12:28]</p>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+</div>
+<!-- Compiled and minified JavaScript -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.loli.net/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<script type="application/javascript">
+    $(document).ready(function(){
+        $('.modal').modal();
+    });
+</script>
+</body>
+</html>
